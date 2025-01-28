@@ -1,17 +1,27 @@
-# 15 Puzzle Game
+# Chapter 21 Project: 15 Puzzle Game
 
-## Overview
+This repository contains the implementation of the **15 Puzzle Game** as part of the Chapter 21 Project from [LearnCpp.com](https://www.learncpp.com). The project is designed to help learners practice and apply C++ programming concepts, including arrays, loops, and user input handling.
 
-This project is a console-based implementation of the classic 15 Puzzle game. The objective is to arrange the tiles in numerical order by sliding them into the empty space.
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Rules of the 15 Puzzle](#rules-of-the-15-puzzle)
+- [Contributing](#contributing)
+- [License](#license)
 
-## How to Play
+## Project Overview
+The **15 Puzzle** is a classic sliding puzzle game played on a 4x4 grid with 15 numbered tiles and one empty space. The objective is to rearrange the tiles in ascending order by sliding them into the empty space.
 
-- The game board is a 4×4 grid with 15 numbered tiles and one empty space.
-- Use the following commands to slide tiles:
-  - `w` - slide tile up
-  - `a` - slide tile left
-  - `s` - slide tile down
-  - `d` - slide tile right
-  - `q` - quit game
-- The goal is to arrange the tiles in numerical order with the empty space in the bottom-right corner:
+This implementation focuses on:
+- Generating a solvable initial puzzle state.
+- Handling user input to move tiles.
+- Displaying the puzzle grid in the console.
+- Checking for a win condition.
 
+## Features
+- **Randomized Puzzle Generation**: The puzzle starts in a randomized but solvable state.
+- **User Input Handling**: Players can use keyboard input (e.g., arrow keys) to move tiles.
+- **Win Condition Detection**: The game checks if the tiles are in the correct order.
+- **Text-Based Interface**: Simple console-based interface for gameplay.
